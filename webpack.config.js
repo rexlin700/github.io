@@ -57,19 +57,6 @@ module.exports = {
         from: "demo.md",
         to: '../demo.md',
         force: true
-      },
-      {
-        context: path.join(__dirname, './src'),
-        from: "favicon.ico",
-        to: '../favicon.ico',
-        force: true
-      },
-      {
-        context: path.join(__dirname, './src'),
-        from: "CNAME",
-        to: '../CNAME',
-        toType: 'file',
-        force: true
       }
     ])
   ]

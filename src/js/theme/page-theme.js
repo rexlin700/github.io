@@ -23,7 +23,7 @@ PageTheme.prototype.bindEvt = function() {
   $('.page-theme').html($options);
   $('.page-theme').on('change', function() {
     var val = $(this).val();
-    $("#pageThemeId").attr('href', './pageThemes/' + val + '.css');
+    $("#pageThemeId").attr('href', '/docs/pageThemes' + val + '.css');
   }).trigger('change');
 };
 
